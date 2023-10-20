@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    /* src paths x intellisense */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@interfaces/*": [
+        "src/common/interfaces/*"
+      ],
+      "@stores/*": [
+        "src/common/stores/*"
+      ],
+      "@styles/*": [
+        "src/common/styles/*"
+      ],
+      "@utils/*": [
+        "src/common/utils/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@routes/*": [
+        "src/routes/*"
+      ],
+    },
+    /* JS options */
+    "allowJs": true,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "NodeNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src/**/*.js",
+    "src/**/*.d.js",
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/**/*.astro"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
