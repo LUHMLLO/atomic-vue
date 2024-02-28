@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { atom } from 'nanostores';
-import { $token } from '@/api/token';
+import { $token } from '@api/token';
 import { Profile } from '@/commons/interfaces/profiles';
 import { HandleApiError } from '@/commons/utils/handleApiErrors';
 

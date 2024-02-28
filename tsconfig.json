@@ -10,16 +10,16 @@
         "src/api/*"
       ],
       "@interfaces/*": [
-        "src/common/interfaces/*"
+        "src/commons/interfaces/*"
       ],
       "@stores/*": [
-        "src/common/stores/*"
+        "src/commons/stores/*"
       ],
       "@styles/*": [
-        "src/common/styles/*"
+        "src/commons/styles/*"
       ],
       "@utils/*": [
-        "src/common/utils/*"
+        "src/commons/utils/*"
       ],
       "@components/*": [
         "src/components/*"

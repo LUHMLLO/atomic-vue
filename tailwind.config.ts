@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { Scales } from "./src/common/utils/scales"
+import { Scales } from "./src/commons/utils/scales"
 
 export default {
   darkMode: ['class', '[data-mode="dark"]'],
